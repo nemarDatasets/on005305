@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on005305",
-  "source": "openneuro",
-  "source_id": "ds005305",
+  "pipeline_stage": "enriched",
   "title": "EEG Resting-state Microstates Correlates of Executive Functions",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Chenot Quentin": {},
     "Hamery Caroline": {},
@@ -12,21 +12,100 @@
     "Langer Nicolas": {},
     "Scannella Sébastien": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds005305.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on005305",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005305",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1016/j.cortex.2024.05.019",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.8.0",
-  "recording_modality": [
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".fdt",
+    ".iqdat",
+    ".json",
+    ".md",
+    ".set",
+    ".tsv"
+  ],
+  "description": "This dataset comprises resting-state EEG recordings and cognitive task performance data from 140 healthy young adults (ages 18-35, selected from 165 recruited participants) collected across two sessions. The study investigates the relationship between intrinsic brain spatio-temporal dynamics, assessed via EEG microstates analysis, and executive function performance measured through a comprehensive battery of nine cognitive tasks. The dataset includes 64-channel EEG recordings acquired at 512 Hz during resting-state conditions and behavioral measures from standardized executive function assessments.",
+  "methods_description": "Participants underwent two sessions: Session 1 involved 5-minute resting-state EEG recording with 64 Biosemi Active-two electrodes (512 Hz sampling rate), alternating between eyes-closed and eyes-open conditions (30 seconds each). Session 2 consisted of nine executive function tasks administered in fixed order: antisaccade, letter-memory, color-shape, number-letter, Stroop, keep-track, dual n-back, category-switch, and stop-signal. Data were collected at the Centre de Neuroergonomie at ISAE-SUPAERO (Toulouse, France) from February 2022 to July 2023. Inclusion criteria: age 18-35 years, native French language, signed informed consent. Exclusion criteria: addiction, major hearing loss, major visual deficit, neurological or psychiatric pathology, known brain injury, or central nervous system medication use.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "microstates"
+    },
+    {
+      "term": "Executive Function",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D056344"
+    },
+    {
+      "term": "resting-state"
+    },
+    {
+      "term": "brain dynamics"
+    },
+    {
+      "term": "cognitive assessment"
+    },
+    {
+      "term": "cognitive tasks"
+    },
+    {
+      "term": "behavioral assessment"
+    },
+    {
+      "term": "Biosemi"
+    },
+    {
+      "term": "antisaccade"
+    },
+    {
+      "term": "Stroop"
+    },
+    {
+      "term": "n-back"
+    },
+    {
+      "term": "stop-signal"
+    },
+    {
+      "term": "category-switch"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "French National Research Agency",
+      "award_number": "ANR-17-ASTR-0005",
+      "award_title": "ASTRID program"
+    },
+    {
+      "funder_name": "Defense Procurement Agency"
+    }
+  ],
+  "source_hash": "ac31313f548be6543855429c4a05dbfa80839a6be51f1209c9cdd895c3c79ec2"
 }

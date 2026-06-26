@@ -1,18 +1,24 @@
 {
-    "ReferencesAndLinks": [
-        "https://osf.io/zfhcn/"
-    ],
-    "Authors": [
-        "Chenot Quentin",
-        "Hamery Caroline",
-        "Truninger Moritz",
-        "De Boissezon Xavier",
-        "Langer Nicolas",
-        "Scannella Sébastien"
-    ],
-    "Name": "EEG Resting-state Microstates Correlates of Executive Functions",
-    "License": "CC0",
-    "BIDSVersion": "1.8.0",
-    "HEDVersion": "8.1.0",
-    "DatasetDOI": "doi:10.18112/openneuro.ds005305.v1.0.1"
+  "ReferencesAndLinks": [
+    "https://osf.io/zfhcn/"
+  ],
+  "Authors": [
+    "Chenot Quentin",
+    "Hamery Caroline",
+    "Truninger Moritz",
+    "De Boissezon Xavier",
+    "Langer Nicolas",
+    "Scannella Sébastien"
+  ],
+  "Name": "EEG Resting-state Microstates Correlates of Executive Functions",
+  "License": "CC0",
+  "BIDSVersion": "1.8.0",
+  "HEDVersion": "8.1.0",
+  "DatasetDOI": "10.82901/nemar.on005305",
+  "SourceDatasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds005305.v1.0.1"
+    }
+  ],
+  "Version": "1.0.0"
 }

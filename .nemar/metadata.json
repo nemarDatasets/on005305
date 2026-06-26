@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "EEG Resting-state Microstates Correlates of Executive Functions",
-  "description": "This dataset comprises resting-state EEG recordings and cognitive task performance data from 140 healthy young adults (18-35 years) collected across two sessions. The study investigates the relationship between intrinsic brain spatio-temporal dynamics, assessed via EEG microstates analysis, and executive function performance measured through a comprehensive battery of nine cognitive tasks. The dataset includes 64-channel EEG recordings acquired at 512 Hz during resting-state conditions and behavioral measures from multiple executive function tasks, with demographic and clinical control variables.",
-  "methods_description": "Participants underwent two sessions: Session 1 consisted of 5-minute resting-state EEG recording with 64 Biosemi Active-two electrodes (512 Hz sampling rate), alternating between eyes-closed and eyes-open conditions (30 seconds each). Session 2 involved nine cognitive tasks administered in fixed order: antisaccade, letter-memory, color-shape, number-letter, Stroop, keep-track, dual n-back, category-switch, and stop-signal. Data were collected at the Centre de Neuroergonomie at ISAE-SUPAERO (Toulouse, France) from February 2022 to July 2023.",
+  "description": "This dataset comprises resting-state EEG recordings and cognitive task performance data from 140 healthy young adults (ages 18-35; 165 participants recruited, 140 completed final sample) collected across two sessions. The study investigates the relationship between intrinsic brain spatio-temporal dynamics, assessed via EEG microstates analysis, and executive function performance measured through a comprehensive battery of nine cognitive tasks. The dataset includes 64-channel EEG recordings acquired at 512 Hz during resting-state conditions and behavioral measures from standardized executive function assessments.",
+  "methods_description": "Participants underwent two sessions: Session 1 involved 5-minute resting-state EEG recording with 64 Biosemi Active-two electrodes (512 Hz sampling rate), alternating between eyes-closed and eyes-open conditions (30 seconds each). Session 2 consisted of nine executive function tasks administered in fixed order: antisaccade, letter-memory, color-shape, number-letter, Stroop, keep-track, dual n-back, category-switch, and stop-signal. Data were collected at the Centre de Neuroergonomie at ISAE-SUPAERO (Toulouse, France) from February 2022 to July 2023.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -33,7 +33,7 @@
       "term": "brain dynamics"
     },
     {
-      "term": "cognitive tasks"
+      "term": "cognitive assessment"
     }
   ],
   "related_identifiers": [

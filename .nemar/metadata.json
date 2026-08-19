@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "EEG Resting-state Microstates Correlates of Executive Functions",
-  "description": "This dataset comprises resting-state EEG recordings and cognitive task performance data from 165 recruited participants, of which 140 constitute the final analyzed sample (ages 18-35) collected across two sessions. The study investigates the relationship between intrinsic brain spatio-temporal dynamics, assessed via EEG microstates during rest, and executive function performance measured through a comprehensive battery of nine cognitive tasks. The dataset includes 64-channel EEG recordings acquired at 512 Hz and behavioral measures from standardized executive function assessments.",
-  "methods_description": "Participants underwent two sessions: Session 1 involved 5-minute resting-state EEG recording with 64 Biosemi Active-two electrodes (512 Hz sampling rate), alternating between eyes-closed and eyes-open conditions (30 seconds each). Session 2 consisted of nine executive function tasks administered in fixed order: antisaccade, letter-memory, color-shape, number-letter, Stroop, keep-track, dual n-back, category-switch, and stop-signal. Data were collected at the Centre de Neuroergonomie at ISAE-SUPAERO (Toulouse, France) from February 2022 to July 2023. Of 165 recruited participants, 140 completed all assessments and constitute the final analyzed sample.",
+  "description": "This dataset comprises resting-state EEG recordings and behavioral executive function assessments from 140 healthy adult participants, collected to investigate the relationship between intrinsic brain spatio-temporal dynamics (via EEG microstates) and executive functions. Participants underwent a 5-minute resting-state EEG recording (eyes open/closed) followed by a battery of nine cognitive tasks assessing executive functions. The study aimed to correlate EEG microstate metrics (occurrence, duration) with executive function performance scores.",
+  "methods_description": "Resting-state EEG was recorded using a 64-electrode Biosemi Active-two amplifier at 512 Hz during a 5-minute session alternating between 30-second blocks of eyes closed and eyes open. In a separate session, participants completed nine cognitive tasks (antisaccade, letter-memory, color-shape, number-letter, Stroop, keep track, dual n-back, category switch, stop-signal) to assess executive functions. Data were collected at the Centre de Neuroergonomie at ISAE-SUPAERO (Toulouse, France) between February 2022 and July 2023.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -19,6 +19,9 @@
       "term": "EEG"
     },
     {
+      "term": "resting-state"
+    },
+    {
       "term": "microstates"
     },
     {
@@ -27,13 +30,10 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D056344"
     },
     {
-      "term": "resting-state"
+      "term": "cognitive tasks"
     },
     {
       "term": "brain dynamics"
-    },
-    {
-      "term": "cognitive assessment"
     }
   ],
   "related_identifiers": [
@@ -45,7 +45,7 @@
     {
       "identifier": "10.1016/j.cortex.2024.05.019",
       "identifier_type": "DOI",
-      "relation_type": "IsDescribedBy"
+      "relation_type": "IsSupplementTo"
     },
     {
       "identifier": "10.18112/openneuro.ds005305.v1.0.1",

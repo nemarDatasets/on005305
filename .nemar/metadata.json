@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "EEG Resting-state Microstates Correlates of Executive Functions",
-  "description": "This dataset comprises resting-state EEG recordings and behavioral executive function assessments from 140 healthy adult participants, collected to investigate the relationship between intrinsic brain spatio-temporal dynamics (via EEG microstates) and executive functions. Participants underwent a 5-minute resting-state EEG recording (eyes open/closed) followed by a battery of nine cognitive tasks assessing executive functions. The study aimed to correlate EEG microstate metrics (occurrence, duration) with executive function performance scores.",
-  "methods_description": "Resting-state EEG was recorded using a 64-electrode Biosemi Active-two amplifier at 512 Hz during a 5-minute session alternating between 30-second blocks of eyes closed and eyes open. In a separate session, participants completed nine cognitive tasks (antisaccade, letter-memory, color-shape, number-letter, Stroop, keep track, dual n-back, category switch, stop-signal) to assess executive functions. Data were collected at the Centre de Neuroergonomie at ISAE-SUPAERO (Toulouse, France) between February 2022 and July 2023.",
+  "description": "Resting-state EEG recordings from healthy young adults (165 recruited, 140 in the final sample) collected to test whether intrinsic brain spatio-temporal dynamics, measured as EEG microstates, relate to executive functions. Session 1 contains 5 minutes of alternating eyes-closed and eyes-open rest recorded with a 64-channel BioSemi system. Session 2 contains behavioral data from nine executive function tasks. The dataset supports correlating microstate metrics with mean z-scored executive function performance.",
+  "methods_description": "Participants were seated in a windowless room facing a 24-inch screen and completed two sessions. Session 1 was a 5-minute resting-state EEG recording alternating between eyes closed and eyes open (30 s each), acquired with a 64-electrode BioSemi ActiveTwo amplifier at 512 Hz. Session 2 was a behavioral battery of nine tasks in fixed order: antisaccade, letter-memory, color-shape, number-letter, Stroop, keep-track, dual n-back, category switch and stop-signal. Data were collected at the Centre de Neuroergonomie, ISAE-SUPAERO, Toulouse, from February 2022 to July 2023.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -25,15 +25,17 @@
       "term": "microstates"
     },
     {
+      "term": "executive functions"
+    },
+    {
       "term": "Executive Function",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D056344"
     },
     {
-      "term": "cognitive tasks"
-    },
-    {
-      "term": "brain dynamics"
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     }
   ],
   "related_identifiers": [
@@ -45,7 +47,7 @@
     {
       "identifier": "10.1016/j.cortex.2024.05.019",
       "identifier_type": "DOI",
-      "relation_type": "IsSupplementTo"
+      "relation_type": "IsDescribedBy"
     },
     {
       "identifier": "10.18112/openneuro.ds005305.v1.0.1",
@@ -76,7 +78,7 @@
     "eeg"
   ],
   "sizes": [
-    "6.9 GB (3591 files)"
+    "6.41 GB (3591 files)"
   ],
   "formats": [
     ".fdt",
